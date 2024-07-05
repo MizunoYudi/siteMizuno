@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../estilos/layout.css">
+    <link rel="stylesheet" type="text/css" href="../estilos/formulario.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Comfortaa'>
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <title>Placeholder</title>
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="../imagens/logo.png" alt="Logo">
+        </figure>
+        <h1>Albera</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../paginas/index.html">Principal</a></li>
+            <li><a href="../paginas/produtos.html">Produtos</a></li>
+            <li><a href="../paginas/contato.html">Contatos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1>Formulário para Contato</h1>
+            <article>
+                <form action="#" method="post">
+                    <h2>Contato</h2>
+                    <p>Se deseja entrar em contato, preencha o formulário completamente</p>
+
+                    <label for="nome">Nome (OBRIGATÓRIO)</label>
+                    <input type="text" name="nome" id="nome" required>
+
+                    <label for="email">Email (OBRIGATÓRIO)</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="tipo">Tipo (OBRIGATÓRIO)</label>
+                    <select name="tipo" id="tipo" required>
+                        <option value="pedido">Pedido</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="servico">Serviço</option>
+                    </select>
+
+                    <label for="comentarios">Comentários (OBRIGATÓRIO)</label>
+                    <textarea name="comentarios" id="comentarios" rows="3" cols="41" required></textarea>
+
+                    <button type="submit" name="enviar" id="enviar">Enviar</button>
+                </form>
+            </article>
+        </section>
+    </main>
+    <aside>
+        <h3>Nossas unidades</h3>
+        <ul>
+            <li>Maceió, Brasil</li>
+            <li>Boituva, Brasil</li>
+        </ul>
+    </aside>
+    <footer>
+        <p>Copyrights Albera 2024</p>
+    </footer>
+</body>
+
+</html>

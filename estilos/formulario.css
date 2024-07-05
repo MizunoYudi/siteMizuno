@@ -1,0 +1,40 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    line-height: 2;
+}
+
+:is(form) :is(p, label, input, button, select) {
+    font-size: 1.2rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea, label {
+    font-family: 'Comfortaa';
+}
+
+input, select, textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(231, 101, 101);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover {
+    cursor: pointer;
+}

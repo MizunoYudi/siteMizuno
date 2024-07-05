@@ -1,0 +1,57 @@
+section {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 300px 300px;
+    grid-template-areas: "g1 g2 g3"
+                         "g4 g5 g6";
+    justify-content: space-around;
+}
+
+
+.g1, .g2, .g3, .g4, .g5, .g6 {
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.g1 {
+    grid-area: g1;
+}
+
+.g2 {
+    grid-area: g2;
+}
+
+.g3 {
+    grid-area: g3;
+}
+
+.g4 {
+    grid-area: g4;
+}
+
+.g5 {
+    grid-area: g5;
+}
+
+.g6 {
+    grid-area: g6
+}
+
+article img{
+    width: 100%;
+}
+
+article p {
+    width: 100%;
+    text-align: center;
+    color: #840858;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
